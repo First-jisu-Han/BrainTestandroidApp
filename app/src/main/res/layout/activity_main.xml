@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/mainText"
+        android:layout_width="313dp"
+        android:layout_height="83dp"
+        android:background="#0F1E0A0A"
+        android:fontFamily="@font/font"
+        android:gravity="center"
+        android:text="@string/mainText"
+        android:textColor="#DD000000"
+        android:textColorHighlight="#D3C7C7"
+        android:textColorHint="#090707"
+        android:textIsSelectable="false"
+        android:textSize="50sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.058" />
+
+    <Button
+        android:id="@+id/mainStart"
+        android:layout_width="240dp"
+        android:layout_height="67dp"
+        android:background="#FFFFFF"
+        android:fontFamily="@font/font"
+        android:text="@string/mainStart"
+        android:textSize="40sp"
+        app:backgroundTint="#41FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mainText"
+        app:layout_constraintVertical_bias="0.954" />
+
+    <EditText
+        android:id="@+id/mainName"
+        android:layout_width="338dp"
+        android:layout_height="61dp"
+        android:ems="10"
+        android:fontFamily="@font/font"
+        android:gravity="center"
+        android:hint="@string/mainName"
+        android:inputType="text"
+        android:textColor="#FAFFFFFF"
+        android:textColorHighlight="#E6040303"
+        android:textColorHint="#70F4F4F4"
+        android:textColorLink="#48FFFFFF"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/mainStart"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mainText"
+        app:layout_constraintVertical_bias="0.938" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="327dp"
+        android:layout_height="314dp"
+        app:layout_constraintBottom_toTopOf="@+id/mainName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mainText"
+        app:srcCompat="@drawable/mainbrain" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
