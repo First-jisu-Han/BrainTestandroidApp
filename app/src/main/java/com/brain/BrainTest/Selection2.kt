@@ -9,10 +9,12 @@ import kotlinx.android.synthetic.main.activity_selection2.*
 class Selection2 : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        val binding=
         setContentView(R.layout.activity_selection2)
 
         var rightCount=0
         var leftCount=0
+
         var name= intent.getStringExtra("name")
 
 
@@ -22,8 +24,8 @@ class Selection2 : AppCompatActivity() {
         button.setOnClickListener(){
 
             when(radioGroup.checkedRadioButtonId){
-                R.id.rightRadio->rightCount+=1
-                R.id.leftRadio->leftCount+=1
+                R.id.rightRadio->rightCount++
+                R.id.leftRadio->leftCount++
             }
 
             val intent=Intent(this,Selection3::class.java)

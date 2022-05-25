@@ -22,8 +22,8 @@ class Selection3 : AppCompatActivity() {
 
         button2.setOnClickListener(){
             when(radioGroup.checkedRadioButtonId){
-            R.id.rightRadio->rightCount+=1
-            R.id.leftRadio->leftCount+=1
+            R.id.rightRadio->rightCount++
+            R.id.leftRadio->leftCount++
         }
             val intent=Intent(this,Selection4::class.java)
             intent.putExtra("Rightradio",rightCount.toInt())

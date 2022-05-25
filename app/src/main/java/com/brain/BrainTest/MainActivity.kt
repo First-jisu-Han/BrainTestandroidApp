@@ -10,23 +10,11 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-
-
-
         mainStart.setOnClickListener {
-            val intent=Intent(this,Selection1::class.java)
-            intent.putExtra("name",mainName.text.toString())      //intent에 mainName의 내용을 담는다
-            startActivity(intent)
+            val intent = Intent(this, Selection1::class.java) // intent는 selection1으로 넘어감
+            intent.putExtra("name", mainName.text.toString())    // intent에 name이라는 이름으로 변수를 담고, 버튼안의 이름을 넣음
+            startActivity(intent) // intent 시작
             finish()
         }
-
-
-
-
-
-
-
-
-
     }
 }

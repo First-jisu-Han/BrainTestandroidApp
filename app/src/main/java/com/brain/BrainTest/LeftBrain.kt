@@ -13,11 +13,7 @@ class LeftBrain : AppCompatActivity() {
         if(intent.hasExtra("name")){
             textView10.text= intent.getStringExtra("name")
             textView21.text=intent.getStringExtra("name")
-
-
         }
-
-
             button9.setOnClickListener(){
             ActivityCompat.finishAffinity(this)
             System.exit(0)
