@@ -9,16 +9,39 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.BrainTest">
-        <activity android:name="com.brain.BrainTest.LeftBrain" android:screenOrientation="portrait"></activity>
-        <activity android:name="com.brain.BrainTest.Selection4" android:screenOrientation="portrait" />
-        <activity android:name="com.brain.BrainTest.Selection3" android:screenOrientation="portrait" />
-        <activity android:name="com.brain.BrainTest.Selection7" android:screenOrientation="portrait" />
-        <activity android:name="com.brain.BrainTest.Selection6" android:screenOrientation="portrait"/>
-        <activity android:name="com.brain.BrainTest.Selection5" android:screenOrientation="portrait" />
-        <activity android:name="com.brain.BrainTest.RightBrain" android:screenOrientation="portrait" />
-        <activity android:name="com.brain.BrainTest.Selection2" android:screenOrientation="portrait" />
-        <activity android:name="com.brain.BrainTest.Selection1" android:screenOrientation="portrait" />
-        <activity android:name="com.brain.BrainTest.MainActivity" android:screenOrientation="portrait">
+        <activity
+            android:name=".LeftBrainRecommend"
+            android:exported="false" />
+        <activity
+            android:name=".LeftBrain"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Selection4"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Selection3"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Selection7"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Selection6"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Selection5"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".RightBrain"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Selection2"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Selection1"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

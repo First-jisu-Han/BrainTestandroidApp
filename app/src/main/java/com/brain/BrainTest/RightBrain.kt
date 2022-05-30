@@ -1,9 +1,8 @@
 package com.brain.BrainTest
-
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.core.app.ActivityCompat
-import com.brain.BrainTest.databinding.ActivityMainBinding
 import kotlinx.android.synthetic.main.activity_right_brain.*
 
 class RightBrain : AppCompatActivity() {
@@ -15,11 +14,15 @@ class RightBrain : AppCompatActivity() {
             textView13.text = intent.getStringExtra("name")
             textView44.text = intent.getStringExtra("name")
         }
+        button8.setOnClickListener(){
+            val intent= Intent(this,RightBrainRecommend::class.java)
+            startActivity(intent)
+        }
 
-        // 버튼 누르면 앱 종료
-            button8.setOnClickListener(){
-                ActivityCompat.finishAffinity(this)
-                System.exit(0)
-            }
+
+        //       button8.setOnClickListener() {
+//            ActivityCompat.finishAffinity(this)
+//            System.exit(0)
+//        }
 
 }}

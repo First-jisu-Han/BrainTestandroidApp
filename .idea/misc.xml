@@ -5,8 +5,11 @@
       <map>
         <entry key="app/src/main/res/font/font.xml" value="0.26564102564102565" />
         <entry key="app/src/main/res/layout/activity_left_brain.xml" value="0.23958333333333334" />
+        <entry key="app/src/main/res/layout/activity_left_brain_recommend.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_left_brain_recomment.xml" value="0.24270833333333333" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.23958333333333334" />
         <entry key="app/src/main/res/layout/activity_right_brain.xml" value="0.23958333333333334" />
+        <entry key="app/src/main/res/layout/activity_right_brain_recommend.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_selection1.xml" value="0.23958333333333334" />
         <entry key="app/src/main/res/layout/activity_selection2.xml" value="0.23958333333333334" />
         <entry key="app/src/main/res/layout/activity_selection3.xml" value="0.23958333333333334" />
