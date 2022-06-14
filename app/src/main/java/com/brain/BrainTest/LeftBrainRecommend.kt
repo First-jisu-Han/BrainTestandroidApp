@@ -10,6 +10,7 @@ class LeftBrainRecommend : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_left_brain_recommend)
 
+        
 
     }
 }

@@ -250,7 +250,7 @@
         android:layout_height="52dp"
         android:background="#FFFFFF"
         android:fontFamily="@font/font"
-        android:text="@string/finishApp"
+        android:text="@string/RightFinalPage"
         android:textSize="20sp"
         app:backgroundTint="#41FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"

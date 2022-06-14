@@ -17,6 +17,8 @@
         <entry key="app/src/main/res/layout/activity_selection5.xml" value="0.23958333333333334" />
         <entry key="app/src/main/res/layout/activity_selection6.xml" value="0.23958333333333334" />
         <entry key="app/src/main/res/layout/activity_selection7.xml" value="0.23958333333333334" />
+        <entry key="app/src/main/res/layout/fragment_my_left.xml" value="0.24270833333333333" />
+        <entry key="app/src/main/res/layout/fragment_my_left_brain.xml" value="0.1" />
       </map>
     </option>
   </component>

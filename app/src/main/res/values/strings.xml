@@ -50,5 +50,9 @@
     <string name="right11"> 확실함 보다는 가능성을 중요시하는 경향이 있습니다 </string>
     <string name="right12"> 직관적인 것을 중요시하는 행동파이며, 계획형 유형과는 거리가 멉니다.</string>
     <string name="rightMbti"> MBTI 유형 :  INFP, ENFJ, ENTP, ESFP, ENFP  </string>
+    <string name="RightFinalPage">다음</string>
+    <string name="LeftFinalPage">다음</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 
 </resources>

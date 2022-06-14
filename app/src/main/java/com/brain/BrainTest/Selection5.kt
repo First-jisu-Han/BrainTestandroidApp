@@ -12,8 +12,6 @@ class Selection5 : AppCompatActivity() {
         setContentView(R.layout.activity_selection5)
         var name= intent.getStringExtra("name")
 
-
-
         var rightCount=0
         var leftCount=0
         rightCount = intent.getIntExtra("Rightradio", 0)

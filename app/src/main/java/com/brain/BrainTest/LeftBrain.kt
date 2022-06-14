@@ -16,14 +16,9 @@ class LeftBrain : AppCompatActivity() {
             textView10.text = intent.getStringExtra("name")
             textView21.text = intent.getStringExtra("name")
         }
-        button9.setOnClickListener(){
-            val intent= Intent(this,LeftBrainRecommend::class.java)
+        button9.setOnClickListener() {
+            val intent = Intent(this, LeftBrainRecommend::class.java)
             startActivity(intent)
         }
-
-//        button9.setOnClickListener() {
-//            ActivityCompat.finishAffinity(this)
-//            System.exit(0)
-//        }
     }
 }
