@@ -1,9 +1,8 @@
 # BrainTestandroidApp
 코틀린으로 간단한 좌뇌 우뇌 검사 어플리케이션 개발, 플레이스토어에 출시
 
-###-----------------------contents ------------------
-[IMG_3707](https://user-images.githubusercontent.com/66197538/200162427-7ac827e0-88dd-4850-acf0-8674e7dfa4a9.JPG)![IMG_3704](https://user-images.githubusercontent.com/66197538/200161827-9c736fd8-a65e-465d-8427-c86cf8c215a2.JPG)![IMG_3703](https://userimages.githubusercontent.com/66197538/200161829-f9c8a2fc-09d0-4f8c-974d-040fc0bb10df.JPG)![IMG_3706](https://user-images.githubusercontent.com/66197538/200161833-49b96fe4-9eda-47a1-9658-b2e844b36478.JPG)![IMG_3700](https://user-images.githubusercontent.com/66197538/200161837-ce09ffa7-3869-4dba-a2d8-a8d650490a14.JPG)![IMG_3705](https://user-images.githubusercontent.com/66197538/200161841-ee865c47-dc63-485c-b048-18a4d20296b2.JPG)![IMG_3702](https://user-images.githubusercontent.com/66197538/200161844-bcd6674e-3ca0-41e9-8b7b-d336aca01d62.JPG)![IMG_3699](https://user-images.githubusercontent.com/66197538/200161853-8c0ed610-41cc-4134-9b29-b7b26480f741.JPG)![IMG_3698](https://user-images.githubusercontent.com/66197538/200161856-adc1654c-3296-4a0d-b2bc-9c979dcf2aa6.JPG)
-###----------------------contents ------------------
+### Contents
+![IMG_3706](https://user-images.githubusercontent.com/66197538/200162468-f9962075-560f-4f39-847e-9d1ff9978003.JPG)![IMG_3703](https://user-images.githubusercontent.com/66197538/200162471-d6439192-e579-4f59-b6f0-6af3632921d2.JPG)![IMG_3704](https://user-images.githubusercontent.com/66197538/200162473-dd4972c8-ff53-4377-bb33-9108a3697baf.JPG)![IMG_3707](https://user-images.githubusercontent.com/66197538/200162474-e3f04258-5734-4ffc-b54d-037fc9e6710a.JPG)![IMG_3700](https://user-images.githubusercontent.com/66197538/200162479-254de7c6-85e3-46f5-a3a1-5a59fe14aca2.JPG)![IMG_3705](https://user-images.githubusercontent.com/66197538/200162484-aa3f4d8a-d42b-49c1-831f-3d1d8e61beb8.JPG)![IMG_3702](https://user-images.githubusercontent.com/66197538/200162486-d66b89fe-6b7a-4c16-8fec-16cc98203d4c.JPG)![IMG_3699](https://user-images.githubusercontent.com/66197538/200162490-11f221f4-74aa-4215-9bb3-ba65beb5c02f.JPG)![IMG_3698](https://user-images.githubusercontent.com/66197538/200162492-a8ac6883-29a9-44bd-abcb-7d54fee89c88.JPG)
 
-### Deploy 
+## Deploy 
 ![image](https://user-images.githubusercontent.com/66197538/200162385-696e8d1c-9468-4c53-a0a9-fcafdb43c940.jpeg)
